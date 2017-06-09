@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
 MAINTAINER asquarezone
 RUN apt-get update
-ADD https://codeload.github.com/satheesh924/DockerZone/zip/master
+ADD https://codeload.github.com/satheesh924/DockerZone/zip/master /master
 CMD ["/bin/bash"] 
