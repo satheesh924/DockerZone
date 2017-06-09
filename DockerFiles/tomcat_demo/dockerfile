@@ -1,0 +1,5 @@
+FROM tomcat:7.0
+MAINTAINER asquarezone
+ADD http://ftp-nyc.osuosl.org/pub/jenkins/war-stable/2.46.3/jenkins.war /usr/local/tomcat/webapps/jenkins.war
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
