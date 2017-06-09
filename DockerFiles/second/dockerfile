@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
 MAINTAINER asquarezone
 RUN apt-get update
-COPY Hi.txt /Hi.txt
+ADD https://codeload.github.com/satheesh924/DockerZone/zip/master
 CMD ["/bin/bash"] 
