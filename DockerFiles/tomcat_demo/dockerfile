@@ -1,5 +1,5 @@
 FROM tomcat:7.0
 MAINTAINER asquarezone
-ADD http://ftp-nyc.osuosl.org/pub/jenkins/war-stable/2.46.3/jenkins.war /usr/local/tomcat/webapps/jenkins.war
+ADD https://cytranet.dl.sourceforge.net/project/openmrs/releases/OpenMRS_Platform_2.0.5/openmrs.war /usr/local/tomcat/webapps/openmrs.war
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
